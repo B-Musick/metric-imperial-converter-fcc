@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Welcome to HyperDev!</title>
+    <meta name="description" content="A cool thing made with HyperDev">
+    <link id="favicon" rel="icon" href="https://hyperdev.com/favicon-app.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./public/style.css">
+  </head>
+  <body>
+    <header>
+      <h1>
+        Internet Security and Quality Assurance - Metric/Imp Converter
+      </h1>
+      <h2>Programmer: Brendan Musick</h2>
+    </header>
+    <div id="page-container">
+      <div id="left-column">
+        <div id="conversion-chart">
+          <ul>
+            <h2>Coversion Chart</h2>
+            <li>- kilometers(km) to miles(mi)</li>
+            <li>- litres(L) to gallons(g)</li>
+            <li>- pounds(lbs) to kilograms(kg)</li>
+          </ul>
+        </div>
+      </div>
+      <div id='right-column'>
+        <div id="form-container">
+          <h2>Perform A Conversion</h2>
+          <form action="/api/convert" method='GET'>
+            <input type="text" name="input">
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+      
+      </div>
+    </div>
+    <footer>
+      <a href="">Glitch</a>
+    </footer>
+  </body>
+</html>
